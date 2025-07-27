@@ -7,7 +7,7 @@ t.speed('fastest')
 t.hideturtle()
 while True:
     for x in range(200):
-        t.pencolor(colors[x%len(colors)])
+        t.pencolor(colors[x%len(colors)])#len(colors)=6 colors[0]=red
         t.width(x/100+1)
         t.forward(x)
         t.left(59)
